@@ -5,6 +5,7 @@ Logo após, irá localizar os dados dos seus ativos e salvar eles em um arquivo 
 That Program was build in Python with Selenium package. The program will wait the XP site log in and then will search the assets informations.
 After that will save the data into a .CSV file.
 
+```
 # List of importations to use Selenium
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -74,3 +75,4 @@ try:
     
 finally:
     driver.quit()
+```
